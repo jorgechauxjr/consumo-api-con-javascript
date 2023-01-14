@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./0-main.js"></script>
+</head>
+<body>
+  <h1>Images App</h1>
+
+  <span id="error"></span>
+
+  <section id="randomMichis">
+    <h2>Random Images</h2>
+
+    <article>
+      <img id="img1" width="150" alt="random picture">
+      <button>Save image in favourite</button>
+    </article>
+
+    <article>
+      <img id="img2" width="150" alt="random picture">
+      <button>Save image in favourite</button>
+    </article>
+    
+
+    <button onclick="loadRandomImage()">Recargar</button>
+  </section>
+  
+  <section id="favoritesMichis">
+    <h2>My favourites images</h2>
+
+    <article>
+      <img id="img1" width="150" alt="random picture">
+      <button>Undo image from favourite</button>
+    </article>
+  </section>
+
+  <script src="./main.js"></script>
+</body>
+</html>
