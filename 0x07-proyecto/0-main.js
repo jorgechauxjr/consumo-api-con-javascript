@@ -1,3 +1,5 @@
+// 0-main.js ==== IMPLEMENTACION DEL METODO GET
+
 const API_KEY = 'live_0vaGXjOziQnpTx5VaxIozxj9QIn44XP9HW0IQhlf4fbFlwq8UJTkF53ou3X79pC0'
 const API_URL_RANDOM = `https://api.thecatapi.com/v1/images/search?limit=2&api_key=${API_KEY}`;
 const API_URL_FAVOTITES = `https://api.thecatapi.com/v1/favourites?limit=2&api_key=${API_KEY}`;
